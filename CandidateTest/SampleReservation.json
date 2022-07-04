@@ -1,0 +1,91 @@
+﻿{
+  "reservationId": "812864414",
+  "reservationStatus": "Book",
+  "channel": "Expedia",
+  "domain": {
+    "id": "filoxenia",
+    "name": "Filoxenia Hotel"
+  },
+  "createdAt": "2021-04-30 10:02:34",
+  "lastModifiedAt": "2021-05-01 12:23:11",
+  "amountBeforeTax": 232.20,
+  "amountAfterTax": 240.40,
+  "tax": 8.20,
+  "commission": 20,
+  "currency": "EUR",
+  "comments": "I need a wake up service",
+  "guestsCount": {
+    "adults": 2,
+    "children": 1
+  },
+  "booker": {
+    "name": "Jon Doe",
+    "email": "john.d@doe.com",
+    "phone": "+4989123343",
+    "address": "My Street 1",
+    "postalCode": "12453",
+    "city": "MyCity",
+    "countryCode": "GB"
+  },
+  "guests": [
+    {
+      "name": "Jane Doe",
+      "email": "jane.d@doe.com",
+      "phone": "+41893233",
+      "address": "My Street 2",
+      "postalCode": "15453",
+      "city": "MyCityView",
+      "countryCode": "GQ"
+    },
+    {
+      "name": "Matias Jane",
+      "email": "matias.d@jane.com",
+      "phone": "+21343213",
+      "address": "My Street 3",
+      "postalCode": "95453",
+      "city": "MyCityPass",
+      "countryCode": "GP"
+    }
+  ],
+  "roomStays": [
+    {
+      "indexNumber": 1,
+      "roomType": {
+        "id": 112,
+        "name": "Double Balcony Sea View"
+      },
+      "ratePlan": {
+        "id": null,
+        "name": "Standard"
+      },
+      "checkIn": "2021-04-01",
+      "checkOut": "2021-04-03",
+      "amountBeforeTax": 232.20,
+      "amountAfterTax": 240.40,
+      "tax": 8.20,
+      "commission": 20,
+      "currency": "EUR",
+      "comments": [],
+      "rates": [
+        {
+          "effectiveDate": "2021-04-01",
+          "expireDate": "2021-04-02",
+          "amountBeforeTax": 116.10,
+          "tax": 4.10,
+          "amountAfterTax": 120.20,
+          "commission": 10,
+          "currency": "EUR"
+        },
+        {
+          "effectiveDate": "2021-04-02",
+          "expireDate": "2021-04-03",
+          "amountBeforeTax": 116.10,
+          "tax": 4.10,
+          "amountAfterTax": 120.20,
+          "commission": 10,
+          "currency": "EUR"
+        }
+      ]
+    }
+  ]
+}
